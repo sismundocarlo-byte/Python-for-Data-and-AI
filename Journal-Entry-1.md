@@ -5,21 +5,27 @@
   - I like excercising specially jogging but sometimes i do go to a gym and do some weight training.
   - Graduate in BS electrical engineering normal graduate lang .
   - I Like eating hahahahah sino ba ayaw kumain Joke :). my favorite food is Sisig.
-  - I lowkey na gwapo at mabait
-3. Why did you join the bootcamp? What brought you here, specifically?
+  - I'am lowkey na gwapo at mabait
+2. Why did you join the bootcamp? What brought you here, specifically?
 - Simple answer is UPSCALING. The thing is Engineers in the phillipine is underpayed and that why iam planning to enter the AI engineering or something in tech.
-- Hopufully its not to late start my career in tech field at the age of 28years old.
-4. Which Data or AI application interests you the most, and why? 
-5. What do you hope to build by the end of the 20 weeks? 
-6. Reflect on one thing you learned today and one question you still have.
+- Hopefully its not to late start my career in tech field at the age of 28years old.
+3. Which Data or AI application interests you the most, and why?
+  - My interest really about chatbots like Chatgpt, Claude, Gemini and someday create an AI like them to my preference and need.
+  - I'am also interested in the way of handling large amount of data to simulate future or best possible action based on the data gathered.
+4. What do you hope to build by the end of the 20 weeks?
+- By the end of the bootcamp i hope i learned almost that can help me kickstart my carreer in Tech.
+- To build my porfolio that employeer can make decision that i'am someone qualified just by seeing it.
+- IF its a program but i dont we are going to build one since it will become a fullstock. But the program i want to build is a system that can assist in engineering build like a simple job order request system, leave form, or simple petty cash request that is under one system that boss or upproval can approva via app.
+5. Reflect on one thing you learned today and one question you still have.
+  - its just early in our boothcamp but iam having ideas what possible possition i can get after this training. And i think its worth it enrooling in this course.
  
 ## Part 2 — Applied Deep-Dive: Pick an Industry 
 UPLIFT CODECAMP · PYTHON FOR DATA AND AI 
 
 Choose one industry from today's "Real-World AI Applications" discussion (healthcare, finance, retail, education, 
 manufacturing, customer service, agriculture, transportation, or government) and write a short case study — 150
-250 words — that answers: 
-
+250 words. — that answers: 
+ 
 • What real problem does AI solve in this industry? 
 
 • What data would a system need to solve it? 
