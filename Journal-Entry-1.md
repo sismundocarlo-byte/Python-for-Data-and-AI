@@ -17,7 +17,7 @@
 - To build my porfolio that employeer can make decision that i'am someone qualified just by seeing it.
 - IF its a program but i dont we are going to build one since it will become a fullstock. But the program i want to build is a system that can assist in engineering feild like a simple job order request system, leave form, or simple petty cash request that is under one system that boss or upproval can approva via app.
 5. Reflect on one thing you learned today and one question you still have.
-  - its just early in our boothcamp but iam having ideas what possible possition i can get after this training. And i think its worth it enrooling in this course.
+  - its just early in our boothcamp but iam having ideas what possible possition i can get after this training. And i think its worth it enrolling in this course.
  
 ## Part 2 — Applied Deep-Dive: Pick an Industry 
 UPLIFT CODECAMP · PYTHON FOR DATA AND AI 
@@ -25,10 +25,18 @@ UPLIFT CODECAMP · PYTHON FOR DATA AND AI
 Choose one industry from today's "Real-World AI Applications" discussion (healthcare, finance, retail, education, 
 manufacturing, customer service, agriculture, transportation, or government) and write a short case study — 150
 250 words. — that answers: 
+
+- One example of this Ai real application is Engineering Field. Ai now a days can help project managers in making the planning and scheduling. In the old days it is so hard handling and monitorong large of projects that is going on at the same time. What is needed on a certain project. Conflict of scheduling the number of manpower needed to handle a certain project. And lots of other problem that we can encounter when handling multiple projects in Engineering field.
  
 • What real problem does AI solve in this industry? 
 
+- Ai really does help in Engineering field . Example Ai can help create a timetable of handilng multiple projects with  a set of duration and how many manpower is needed to handle the projects simultaneously. There is a lot of application out there that does exactly this.
+
 • What data would a system need to solve it? 
+
+- Project being handled and how many
+- Set of Duration for each project.
+- The number of manpower you currently have and the number of manpower each 
 
 • What could go wrong if the system is biased, wrong, or misused — and who would that affect? 
 
