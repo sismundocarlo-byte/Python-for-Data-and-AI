@@ -2,11 +2,12 @@
 
 1. Introduce yourself. Who are you, and what should your classmates and future readers know about you?
   - Hello guys My name is Carlo.
-  - I like excercising specially jogging but sometimes i do go to a gym and some weight training.
+  - I like excercising specially jogging but sometimes i do go to a gym and do some weight training.
   - Graduate in BS electrical engineering normal graduate lang .
   - I Like eating hahahahah sino ba ayaw kumain Joke :). my favorite food is Sisig.
-  - 
-3. Why did you join the bootcamp? What brought you here, specifically? 
+  - I lowkey na gwapo at mabait
+3. Why did you join the bootcamp? What brought you here, specifically?
+- Siple answer is UPSCALING. The thing is Engineers in the phillipine is underpayed and  
 4. Which Data or AI application interests you the most, and why? 
 5. What do you hope to build by the end of the 20 weeks? 
 6. Reflect on one thing you learned today and one question you still have.
