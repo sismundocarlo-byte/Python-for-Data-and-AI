@@ -22,23 +22,30 @@
 ## Part 2 — Applied Deep-Dive: Pick an Industry 
 UPLIFT CODECAMP · PYTHON FOR DATA AND AI 
 
-Choose one industry from today's "Real-World AI Applications" discussion (healthcare, finance, retail, education, 
+1. Choose one industry from today's "Real-World AI Applications" discussion (healthcare, finance, retail, education, 
 manufacturing, customer service, agriculture, transportation, or government) and write a short case study — 150
 250 words. — that answers: 
 
 - One example of this Ai real application is Engineering Field. Ai now a days can help project managers in making the planning and scheduling. In the old days it is so hard handling and monitorong large of projects that is going on at the same time. What is needed on a certain project. Conflict of scheduling the number of manpower needed to handle a certain project. And lots of other problem that we can encounter when handling multiple projects in Engineering field.
  
-• What real problem does AI solve in this industry? 
+2. What real problem does AI solve in this industry? 
 
 - Ai really does help in Engineering field . Example Ai can help create a timetable of handilng multiple projects with  a set of duration and how many manpower is needed to handle the projects simultaneously. There is a lot of application out there that does exactly this.
 
-• What data would a system need to solve it? 
+3. What data would a system need to solve it? 
 
 - Project being handled and how many
 - Set of Duration for each project.
-- The number of manpower you currently have and the number of manpower each 
+- The number of manpower you currently have and the number of manpower each.
+- The specialization of your manpower.
+- What materials would be needed in each project.
+- When the start and deadline of the multiple projects.
+- What is the urgency level and priorities.
 
-• What could go wrong if the system is biased, wrong, or misused — and who would that affect? 
+4. What could go wrong if the system is biased, wrong, or misused — and who would that affect?
+   
+- If there is biased in our system a certain project might be ahead on schedule and allways be prioretize
+- Some projects will be delayed because of wrong data inputs
 
-You can base this on the example from class, something you found with a quick search, or a scenario you make up 
-— just make it specific and plausible, not generic.
+
+
