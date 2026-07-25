@@ -44,8 +44,11 @@ manufacturing, customer service, agriculture, transportation, or government) and
 
 4. What could go wrong if the system is biased, wrong, or misused — and who would that affect?
    
-- If there is biased in our system a certain project might be ahead on schedule and allways be prioretize
-- Some projects will be delayed because of wrong data inputs
+- If there is biased in our system a certain project might be ahead on schedule and allways be prioritize.
+- Some projects will be delayed because of wrong data inputs.
+- There might be a wrong destribution of manpower in different projects.
+- Materials and bugeting might be dis alligned and cannot be tally appropriately.
+- Conflict of schedule and mobilization may arise.
 
 
 
