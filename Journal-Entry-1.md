@@ -7,7 +7,8 @@
   - I Like eating hahahahah sino ba ayaw kumain Joke :). my favorite food is Sisig.
   - I lowkey na gwapo at mabait
 3. Why did you join the bootcamp? What brought you here, specifically?
-- Siple answer is UPSCALING. The thing is Engineers in the phillipine is underpayed and  
+- Simple answer is UPSCALING. The thing is Engineers in the phillipine is underpayed and that why iam planning to enter the AI engineering or something in tech.
+- Hopufully its not to late start my career in tech field at the age of 28years old.
 4. Which Data or AI application interests you the most, and why? 
 5. What do you hope to build by the end of the 20 weeks? 
 6. Reflect on one thing you learned today and one question you still have.
