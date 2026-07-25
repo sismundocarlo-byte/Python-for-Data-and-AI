@@ -13,9 +13,9 @@
   - My interest really about chatbots like Chatgpt, Claude, Gemini and someday create an AI like them to my preference and need.
   - I'am also interested in the way of handling large amount of data to simulate future or best possible action based on the data gathered.
 4. What do you hope to build by the end of the 20 weeks?
-- By the end of the bootcamp i hope i learned almost that can help me kickstart my carreer in Tech.
+- By the end of the bootcamp i hope i learned the things that can help me kickstart my carreer in Tech.
 - To build my porfolio that employeer can make decision that i'am someone qualified just by seeing it.
-- IF its a program but i dont we are going to build one since it will become a fullstock. But the program i want to build is a system that can assist in engineering build like a simple job order request system, leave form, or simple petty cash request that is under one system that boss or upproval can approva via app.
+- IF its a program but i dont we are going to build one since it will become a fullstock. But the program i want to build is a system that can assist in engineering feild like a simple job order request system, leave form, or simple petty cash request that is under one system that boss or upproval can approva via app.
 5. Reflect on one thing you learned today and one question you still have.
   - its just early in our boothcamp but iam having ideas what possible possition i can get after this training. And i think its worth it enrooling in this course.
  
