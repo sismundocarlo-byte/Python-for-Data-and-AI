@@ -1,7 +1,11 @@
 ## Part 1 — Core Reflection  
-Answer all five of these. This is the heart of the entry — everything else in this guide builds around it. 
+
 1. Introduce yourself. Who are you, and what should your classmates and future readers know about you?
-  - Hello guys My name is Carlo. I like excercising specially jogging but sometimes 
+  - Hello guys My name is Carlo.
+  - I like excercising specially jogging but sometimes i do go to a gym and some weight training.
+  - Graduate in BS electrical engineering normal graduate lang .
+  - I Like eating hahahahah sino ba ayaw kumain Joke :). my favorite food is Sisig.
+  - 
 3. Why did you join the bootcamp? What brought you here, specifically? 
 4. Which Data or AI application interests you the most, and why? 
 5. What do you hope to build by the end of the 20 weeks? 
