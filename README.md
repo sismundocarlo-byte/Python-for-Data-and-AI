@@ -12,4 +12,4 @@ This repository contains my learning journals, assignments, coding exercises, an
 
 ## Assignments
 - [Milestone 1](Project_Dead_Line/)
-- [Milestone 2](Milestone 2)
+- [Milestone 2](Milestone 2/)
