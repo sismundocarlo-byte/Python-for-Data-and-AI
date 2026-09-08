@@ -10,8 +10,8 @@ This repository contains my learning journals, assignments, coding exercises, an
 
 - [Journal Entry 1](Journal-Entry-1.md)
 
-## Assignment 1
+## Assignments
+### Milestone 1
 - [Project Deadline Checker](Project_Dead_Line/)
-
-## Assignment 2
+### Milestone 2
 - Data Handling
