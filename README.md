@@ -11,5 +11,5 @@ This repository contains my learning journals, assignments, coding exercises, an
 - [Journal Entry 1](Journal-Entry-1.md)
 
 ## Assignments
-- [Milestone 1](Project_Dead_Line/)
-- [Milestone 2](Milestone 2/)
+- [Milestone 1 - Project Deadline](Project_Dead_Line/)
+- [Milestone 2 - Data Handling Cleaning](Milestone 2/)
