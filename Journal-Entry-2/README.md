@@ -6,11 +6,17 @@ I leaned a lot of about SQL in this session we use DBeaver app, We open [Chinook
 First the basic and order of code. Simple but very important during the session in SQL this one of my most error often i didn't follow the correct order of code.
 
 SELECT
+
 FROM
+
 WHERE
+
 GROUP BY
+
 HAVING
+
 ORDER BY
+
 LIMIT.
 
 From that we go to harder queries like sub queries and CTE
