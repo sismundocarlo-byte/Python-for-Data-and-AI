@@ -8,12 +8,12 @@ During this session, I learned a lot about SQL using DBeaver and the [Chinook da
 
 One of the first things we covered was the basic structure and order of an SQL query:
 
-SELECT
-FROM
-WHERE
-GROUP BY
-HAVING
-ORDER BY
+SELECT,
+FROM,
+WHERE,
+GROUP BY,
+HAVING,
+ORDER BY.
 LIMIT;
 
 This is one of the areas where I often make mistakes, especially when I don't follow the correct order of clauses. Although it looks simple, understanding this structure is important because even a small mistake can cause a query to fail. I learned that practicing this order consistently will help me write queries more confidently.
