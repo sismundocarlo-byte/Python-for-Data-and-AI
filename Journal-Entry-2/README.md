@@ -3,11 +3,17 @@
 ## 1. What I Learned
 I leaned a lot of about SQL in this session we use DBeaver app, We open [Chinook.db](chinook.db) with Sqlite. And started doing queries from basic to advance.
 
-**Aggregation and GROUP BY.** Without GROUP BY, SUM or COUNT squashes the whole table into one number. GROUP BY lets you get one number per category, like one total per customer. Every non-aggregated column in SELECT has to be in the GROUP BY, otherwise the database doesn't know what to show.
+First the basic and order of code. Simple but very important during the session in SQL this one of my most error often i didn't follow the correct order of code.
 
-**WHERE vs HAVING.** WHERE filters rows before grouping, HAVING filters after. I only really got it once I tried to filter on a total and it wouldn't let me.
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+LIMIT.
 
-**CTEs.** A CTE is basically giving a subquery a name so you can read the query top to bottom. For me it made long queries way less scary because I could build and test one piece at a time.
+From that we go to harder queries like sub queries and CTE
 
 ## 2. A Query I Am Proud Of
 
