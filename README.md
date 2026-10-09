@@ -9,7 +9,7 @@ This repository contains my learning journals, assignments, coding exercises, an
 ## Learning Journals
 
 - [Journal Entry 1](Journal-Entry-1.md)
-- [Journal Entry 2](Journal-Entry-2.md)
+- [Journal Entry 2](Journal-Entry-2)
 
 ## Assignments
 - [Milestone 1 - Project Deadline](Project_Dead_Line/)
