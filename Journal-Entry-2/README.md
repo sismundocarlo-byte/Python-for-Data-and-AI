@@ -91,6 +91,8 @@ Second often mistake i make is inserting a comma to the last item in SELECT func
 
 Lastly although the code is working, But i don't use capitalize or indention for Functions and indention in variables so its hard to understand now iam practicing  using SELECT (Capitalize) and indention for readability of the code.
 
+Now I'm practicing to correct this mistakes. and now seldom making the same error but still continues practice to perpect the codes.
+
 
 ## 4. Connecting to the Real World
 
