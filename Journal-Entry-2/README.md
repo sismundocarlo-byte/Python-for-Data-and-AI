@@ -78,7 +78,13 @@ Example: Just a simple Record of order in an online retail store. We might have 
 | CTEs (WITH) and window functions | | | x | | |
 
 
-My highest is basic SELECT because I got the early exercises right first try. Aggregation is strong too, though my duplicated-count mistake shows I still slip. My lowest is Subqueries, I try it but i just confuse but will practice again till i get it right. Subqueries and 3+ table joins sit at a 3 because I need my notes to get the join conditions right.
+My highest is basic SELECT because I got the early exercises right first try.
+
+Aggregation is okay with me and comfortable using it just take note that we must create new name for the aggregated values.
+
+Most of the time i cant understand sub queries but iam practicing and hopefully soon will master it.
+
+CTE i like it better because in the beginning you can list all aggregated values and table you need to answer the question .
 
 ## 6. Goals and Next Steps
 
