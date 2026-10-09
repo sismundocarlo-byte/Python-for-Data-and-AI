@@ -30,7 +30,7 @@ ORDER BY AvgSpent DESC;
 
 The CTE runs first and works out how much each customer has spent in total. The main query then joins that result to Employee so each customer is tied to their support rep. GROUP BY collapses it to one row per rep, COUNT gives how many customers they handle, AVG gives the average spend per customer, and ORDER BY puts the best result on top.
 
-The business question: which support reps look after the highest-value customers? A manager could use it to see who might need more customers, or whose approach is worth copying. [Mention what the top result was when you ran it.]
+The business question: which support reps look after the highest-value customers? A manager could use it to see who might need more customers, or whose approach is worth copying. Although I'm having a hard time following the queries during the class. and most of my classmate already know the answer but i practice after class and manage to do this query after a lot of practice.
 
 ## 3. A Mistake or Struggle
 
