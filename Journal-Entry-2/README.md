@@ -26,11 +26,14 @@ From that we go to harder queries like sub queries and CTE
 ```sql
 ## Q1 Who is the top 10 highest spending customer
 
-WITH CustomerTotals AS (
-    SELECT CustomerId, SUM(Total) AS TotalSpent
+WITH CustomerTotals AS 
+(
+    SELECT 
+    	CustomerId, SUM(Total) AS TotalSpent
     FROM invoices
     GROUP BY CustomerId
 )
+
 SELECT c.FirstName || ' ' || c.LastName AS CustomerName,
        ct.TotalSpent
 FROM customers c
