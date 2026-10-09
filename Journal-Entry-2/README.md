@@ -1,7 +1,7 @@
 # SQL Learning Journal #2: Chinook Database
 
 ## 1. What I Learned
-I leaned a lot of about SQL in this session we use DBeaver app, We open [Chinook.db](xxxxxxxx) with Sqlite. Ans started doing queries from basic to advance.
+I leaned a lot of about SQL in this session we use DBeaver app, We open [Chinook.db](chinook.db) with Sqlite. Ans started doing queries from basic to advance.
 
 **Aggregation and GROUP BY.** Without GROUP BY, SUM or COUNT squashes the whole table into one number. GROUP BY lets you get one number per category, like one total per customer. Every non-aggregated column in SELECT has to be in the GROUP BY, otherwise the database doesn't know what to show.
 
