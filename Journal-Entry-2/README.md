@@ -59,7 +59,11 @@ ORDER BY ct.TotalSpent DESC
 LIMIT 10;
 ```
 
-I know it nothing complicated but it is the question exampled by the proctor in Sub queries topic and i did it in CTE in my own. And that why iam proud of it.
+First, the CTE named CustomerTotals calculates the total amount spent by each customer using SUM(Total) and GROUP BY CustomerId. I gave the calculated value the name TotalSpent so I could refer to it easily in the main query.
+
+Next, I joined the results with the customers table to get each customer's first and last name. I used ORDER BY with DESC to arrange customers from the highest total spending to the lowest, then LIMIT 10 to show only the top 10.
+
+I know this is not the most complicated query, but I am proud of it because I was able to use a CTE instead of simply following the example. It helped me see how I can break a problem into smaller steps. In a real business, this kind of query could help identify high-value customers and support decisions about customer retention or promotions.
 
 ## 3. A Mistake or Struggle
 
@@ -90,9 +94,13 @@ Lastly although the code is working, But i don't use capitalize or indention for
 
 ## 4. Connecting to the Real World
 
-I think SQL is very relatable into real world because technology is already changing. Data base and data handling will become mainstream than manually inputting of data and recording.
+For me, SQL is very relatable to the real world because businesses already collect a lot of data, and managing it manually can become difficult as the amount of information grows.
 
-Example: Just a simple Record of order in an online retail store. We might have a clustered of data or record of Purchase. But it is messy and cannot be understand at glance. So unless we apply and data handling, and SQL query to get the desired data else it will take a lot of time. From that queries we can get idea for future action or what possible problem we are dealing with.
+For example, an online retail store may have thousands of purchase records. A business owner might want to know which products generate the most revenue or which customers purchase most frequently. SQL can help answer these questions without manually checking every transaction.
+
+For product revenue, I could join the order details with the product table and use SUM() with GROUP BY to calculate the total sales for each product. For customer purchasing activity, I could group order records by customer and use COUNT() to determine how many orders each customer placed.
+
+The results could help the business decide which products to promote, which items need more stock, and how to improve customer retention. This is one reason I want to improve my SQL skills as I work toward becoming a Data Analyst. I want to learn how to turn raw data into information that can actually help people make decisions.
 
 ## 5. Self-Assessment
 
@@ -114,4 +122,8 @@ CTE i like it better because in the beginning you can list all aggregated values
 
 ## 6. Goals and Next Steps
 
-Currently I'm only comfortable using the basic of SQL but when it become complicated like Sub queries or CTE i become confuse often my code become error. So i need for practice to the point that just hearing the question i can already picture the code in my mind. So by the end of this booth camp i must already mastered SQL
+Right now, I am comfortable with basic SQL, but I still get confused when queries become more complicated, especially with subqueries and CTEs. My goal is to reach a point where I can understand a question and have a clear idea of how to build the query instead of guessing which clause to use.
+
+To improve, I will practice at least 10 SQL problems each week, focusing on joins, aggregation, subqueries, and CTEs. I will try to solve each problem on my own before checking my notes or looking at an example. I also want to explore window functions because they seem useful for more advanced data analysis.
+
+By the end of this boot camp, I want to be confident enough to solve common SQL problems independently and use these skills in my Data Analyst portfolio projects.
