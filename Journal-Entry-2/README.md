@@ -46,21 +46,12 @@ I know it nothing complicated but it is the question exampled by the proctor in 
 
 ## 3. A Mistake or Struggle
 
-I wanted to count how many invoices each customer had, so I joined Invoice to InvoiceLine and wrote:
+Just Like what  i told before often i Code the wrong order and get a syntax error.
 
-```sql
-SELECT c.CustomerId, COUNT(i.InvoiceId) AS InvoiceCount
-FROM Customer c
-JOIN Invoice i ON i.CustomerId = c.CustomerId
-JOIN InvoiceLine il ON il.InvoiceId = i.InvoiceId
-GROUP BY c.CustomerId;
-```
+Second often mistake i make is inserting a comma to the last item in SELECT function.
 
-No error, but the counts were far too high. [Write the real numbers you saw, e.g. "a customer showed 38 invoices when they only had 7".]
+Lastly although the code is working, But i don't use capitalize or indention for Functions and indention in variables so its hard to understand now iam practicing  using SELECT (Capitalize) and indention for readability of the code.
 
-The cause: each invoice has several lines, so joining InvoiceLine repeats the invoice once per line, and COUNT counted every repeat. Since it didn't error, I only caught it because the numbers looked wrong. The fix was `COUNT(DISTINCT i.InvoiceId)`, or just not joining InvoiceLine at all, since I didn't need it.
-
-Takeaway: after any join, I now check the row count against what I expect before trusting an aggregate.
 
 ## 4. Connecting to the Real World
 
