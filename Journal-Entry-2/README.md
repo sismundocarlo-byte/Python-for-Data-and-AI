@@ -19,7 +19,14 @@ ORDER BY
 
 LIMIT.
 
+I also learned joining of different table.
+
+Aggregate if we need some calculation.
+
+Then different use of function in SQL
+
 From that we go to harder queries like sub queries and CTE
+
 
 ## 2. A Query I Am Proud Of
 
@@ -45,6 +52,24 @@ LIMIT 10;
 I know it nothing complicated but it is the question exampled by the proctor in Sub queries topic and i did it in CTE in my own. And that why iam proud of it.
 
 ## 3. A Mistake or Struggle
+
+```sql
+## Using comma in SELECT last Item my earlier codes when learning
+
+SELECT c.FirstName, c.LastName, c.CustomerID,
+FROM customers c
+LIMIT 5;
+```
+```sql
+## Wrong order of code
+
+SELECT CustomerId, SUM(Total) AS TotalSpent
+FROM invoices
+WHERE SUM(Total) > 40
+GROUP BY CustomerId;
+```
+
+
 
 Just Like what  i told before often i Code the wrong order and get a syntax error.
 
