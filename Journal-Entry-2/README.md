@@ -62,8 +62,6 @@ Example: Just a simple Record of order in an online retail store. We might have 
 |---|:-:|:-:|:-:|:-:|:-:|
 | Basic SELECT, WHERE, ORDER BY | | | | | X |
 | Aggregation (COUNT, SUM, AVG, GROUP BY, HAVING) | | | X | | |
-| Joins (2 tables) | | | | X | |
-| Joins (3 or more tables) | | | X | | |
 | Subqueries | | x | | | |
 | CTEs (WITH) and window functions | | | x | | |
 
@@ -72,6 +70,4 @@ My highest is basic SELECT because I got the early exercises right first try. Ag
 
 ## 6. Goals and Next Steps
 
-I want to get better at 3+ table joins by doing a few practice queries each week on Chinook, checking row counts each time. I'm curious about window functions, especially ranking.
-
-**Goal:** by [the end of october], I'll write five new queries joining at least three tables and rewrite two of them with CTEs.
+Currently I'm only comfortable using the basic of SQL but when it become complicated like Sub queries or CTE i become confuse often my code become error. So i need for practice to the point that just hearing the question i can already picture the code in my mind. So by the end of this booth camp i must already mastered SQL
