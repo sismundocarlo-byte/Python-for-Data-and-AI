@@ -24,20 +24,19 @@ From that we go to harder queries like sub queries and CTE
 ## 2. A Query I Am Proud Of
 
 ```sql
-WITH customer_totals AS (
-    SELECT c.CustomerId, c.SupportRepId,
-           SUM(i.Total) AS TotalSpent
-    FROM Customer c
-    JOIN Invoice i ON i.CustomerId = c.CustomerId
-    GROUP BY c.CustomerId
+## Q1 Who is the top 10 highest spending customer
+
+WITH CustomerTotals AS (
+    SELECT CustomerId, SUM(Total) AS TotalSpent
+    FROM invoices
+    GROUP BY CustomerId
 )
-SELECT e.FirstName || ' ' || e.LastName AS SupportRep,
-       COUNT(*) AS Customers,
-       ROUND(AVG(ct.TotalSpent), 2) AS AvgSpent
-FROM customer_totals ct
-JOIN Employee e ON e.EmployeeId = ct.SupportRepId
-GROUP BY e.EmployeeId
-ORDER BY AvgSpent DESC;
+SELECT c.FirstName || ' ' || c.LastName AS CustomerName,
+       ct.TotalSpent
+FROM customers c
+JOIN CustomerTotals ct ON ct.CustomerId = c.CustomerId
+ORDER BY ct.TotalSpent DESC
+LIMIT 10;
 ```
 
 The CTE runs first and works out how much each customer has spent in total. The main query then joins that result to Employee so each customer is tied to their support rep. GROUP BY collapses it to one row per rep, COUNT gives how many customers they handle, AVG gives the average spend per customer, and ORDER BY puts the best result on top.
