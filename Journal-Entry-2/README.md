@@ -52,12 +52,9 @@ Takeaway: after any join, I now check the row count against what I expect before
 
 ## 4. Connecting to the Real World
 
-[Swap in an app or business you actually use.] Take a food delivery app like GrabFood. Two questions it could answer:
+I think SQL is very relatable into real world because technology is already changing. Data base and data handling will become mainstream than manually inputting of data and recording.
 
-1. **Which restaurants earned the most last month?** Join Orders, OrderItems and Restaurants, then SUM with GROUP BY. Same shape as my support rep query.
-2. **Which customers ordered once and never came back?** Orders grouped by customer with HAVING COUNT(*) = 1, or a subquery on last order date. This could drive promo vouchers.
-
-SQL is still everywhere because most business data already lives in relational databases, and the language is close to plain English, so analysts and non-programmers can both pick it up.
+Example: Just a simple Record of order in an online retail store. We might have a clustered of data or record of Purchase. But it is messy and cannot be understand at glance. So unless we apply and data handling, and SQL query to get the desired data else it will take a lot of time. From that queries we can get idea for future action or what possible problem we are dealing with.
 
 ## 5. Self-Assessment
 
