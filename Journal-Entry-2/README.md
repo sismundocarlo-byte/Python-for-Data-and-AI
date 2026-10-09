@@ -74,8 +74,8 @@ Example: Just a simple Record of order in an online retail store. We might have 
 |---|:-:|:-:|:-:|:-:|:-:|
 | Basic SELECT, WHERE, ORDER BY | | | | | X |
 | Aggregation (COUNT, SUM, AVG, GROUP BY, HAVING) | | | X | | |
-| Subqueries | | x | | | |
-| CTEs (WITH) and window functions | | | x | | |
+| Subqueries | x | | | | |
+| CTEs (WITH) and window functions | | x | | | |
 
 
 My highest is basic SELECT because I got the early exercises right first try.
