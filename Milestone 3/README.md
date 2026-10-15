@@ -1,35 +1,67 @@
-# Hotel Booking Cancellation - ML Group Project
+# Milestone 3: Machine Learning Project
 
-## Problem statement
-Hotels lose revenue when guests cancel. **Classification question:** given what is known when a booking is made, will it be cancelled (`is_canceled`)? Predictions can drive overbooking and deposit policies.
-(Regression and clustering parts are planned on the same cleaned dataset, e.g. regress `adr`, cluster guest profiles.)
+## Overview
 
-## Dataset
-Hotel Booking Demand (Antonio, Almeida & Nunes, 2019, *Data in Brief*), City Hotel + Resort Hotel in Portugal, 2015-2017; commonly distributed on Kaggle. 119,390 rows, 32 columns. Check the licence on the source page you downloaded from and cite it in your report.
+This project explores different machine learning approaches using real-world datasets to solve business problems and generate actionable insights.
 
-**Cleaned version** `data/processed/hotel_bookings_clean.csv`: 86,637 rows x 34 columns, 27.7% cancelled. Steps: removed 31,994 duplicates, 759 impossible rows (0 guests, 0 nights, negative/extreme `adr`); dropped leaky columns (`reservation_status`, `reservation_status_date`, `assigned_room_type`); filled missing `children`/`country`/`agent`; flagged `company` (94% missing); added engineered features.
+The objective is to develop, evaluate, and compare machine learning models across three major categories: classification, regression, and clustering.
 
-## Results (held-out test set, 17,328 bookings)
-| Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
-|---|---|---|---|---|---|
-| Baseline (majority class) | 0.723 | 0.000 | 0.000 | 0.000 | 0.500 |
-| Logistic Regression (tuned) | 0.758 | 0.543 | 0.795 | 0.646 | 0.850 |
-| **Random Forest (tuned)** | 0.825 | 0.649 | 0.803 | **0.718** | 0.906 |
-| Hist Gradient Boosting (tuned) | 0.842 | 0.740 | 0.661 | 0.698 | 0.909 |
+Each category addresses a different analytical problem, using appropriate algorithms, evaluation metrics, and business interpretations.
 
-Models were compared with 5-fold CV on the training set (Random Forest also led there, F1 0.715 tuned); the test set was used once. Regression and clustering rows: _to be added_.
+## Machine Learning Projects
 
-## Limitations
-- Random (not time-based) split; a real deployment would be tested on later months.
-- `country`/`agent` act partly like identifiers; `Non Refund` bookings cancel 96% of the time, a quirk of this data.
-- Tuning was light (few random-search iterations) to run on one CPU.
-- Not for automatically penalising or refusing individual guests; use for aggregate planning only.
+### 1. Classification — Hotel Booking Cancellation Prediction
 
-## How to run
-```bash
-pip install -r requirements.txt
-python src/prepare_data.py            # builds data/processed/hotel_bookings_clean.csv
-python src/train_classification.py    # CV, tuning, test metrics, figures in reports/, model in models/
-# or open notebooks/02_classification.ipynb and run all cells
-```
-Random seed is fixed at 42. Training takes roughly 8 minutes on one CPU.
+**Business problem:** Hotel cancellations can lead to lost revenue and inefficient room allocation. Can we predict whether a hotel booking will be cancelled?
+
+- **Dataset:** Hotel Booking Demand
+- **Target variable:** `is_canceled`
+- **Models:** Logistic Regression, Random Forest, Hist Gradient Boosting
+- **Best model by F1-score:** Random Forest (0.718)
+- **Best ROC-AUC:** Hist Gradient Boosting (0.909)
+
+[**Proceed to Classification →**](Classification/README.md)
+
+### 2. Regression — To Be Developed
+
+**Business problem:** Predict a continuous numerical outcome using booking or customer data.
+
+- **Dataset:** Hotel Booking Demand
+- **Potential target variable:** `adr` (Average Daily Rate)
+- **Status:** Planned
+
+[Proceed to Regression →](Regression/README.md)
+
+### 3. Clustering — To Be Developed
+
+**Business problem:** Identify distinct customer or guest segments based on their booking characteristics.
+
+- **Dataset:** Hotel Booking Demand
+- **Approach:** Unsupervised learning
+- **Status:** Planned
+
+[Proceed to Clustering →](Clustering/README.md)
+
+## Project Objectives
+
+- Apply data cleaning, preprocessing, and feature engineering.
+- Train and compare multiple machine learning algorithms.
+- Evaluate models using appropriate performance metrics.
+- Interpret results in a business context.
+- Document limitations and potential real-world applications.
+
+## Technology Stack
+
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook, and Git/GitHub.
+
+## Repository Structure
+
+- `Classification/` — Classification models and documentation.
+- `Regression/` — Regression models and documentation.
+- `Clustering/` — Clustering models and documentation.
+
+## Author
+
+Carlo Sismundo
+
+Part of the Python for Data and AI learning portfolio.
