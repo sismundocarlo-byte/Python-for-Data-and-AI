@@ -1,0 +1,18 @@
+{
+  "Logistic Regression (tuned)": {
+    "model__C": 0.8471801418819978
+  },
+  "Random Forest (tuned)": {
+    "model__max_depth": 22,
+    "model__max_features": 0.3,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 100
+  },
+  "Hist Gradient Boosting (tuned)": {
+    "model__l2_regularization": 9.307782732027235,
+    "model__learning_rate": 0.12433768134039067,
+    "model__max_iter": 171,
+    "model__max_leaf_nodes": 63,
+    "model__min_samples_leaf": 68
+  }
+}
