@@ -20,7 +20,7 @@ Each category addresses a different analytical problem, using appropriate algori
 - **Best model by F1-score:** Random Forest (0.718)
 - **Best ROC-AUC:** Hist Gradient Boosting (0.909)
 
-[**Proceed to Classification →**](Milestone 3/Classification)
+[**Proceed to Classification →**](Classification)
 
 ### 2. Regression — To Be Developed
 
