@@ -2,7 +2,7 @@
 
 > **Question:** When is a simple model good enough, and when does an LLM earn its cost?
 
-**Author:** `<your name>` · **Course:** `<course name>` · **Date:** `<date>`
+**Author:** `Carlo Sismundo
 
 This project classifies **GitHub pull-request and commit comments** (software-engineering text) as
 *positive*, *negative* or *neutral* with three approaches, then compares them on accuracy, macro-F1,
