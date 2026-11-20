@@ -1,0 +1,31 @@
+text,label,category,source
+Kill the process and restart the service.,neutral,jargon,starter
+I'll remove the dead code and the deprecated functions in this PR.,neutral,jargon,starter
+The null pointer exception is thrown when the config file is missing.,neutral,jargon,starter
+Run the test suite and check the failed cases in the log.,neutral,jargon,starter
+Aggressive inlining is enabled by default at -O3.,neutral,jargon,starter
+We need to handle the error case before returning.,neutral,jargon,starter
+This function returns an invalid value for negative inputs.,neutral,jargon,starter
+"This is not bad at all, clean and readable.",positive,negation,starter
+I can't say I'm happy with how this module handles timeouts.,negative,negation,starter
+"Nothing wrong with this approach, merging it.",positive,negation,starter
+"The new build is not faster, it is actually slower than before.",negative,negation,starter
+I don't think this is a problem.,neutral,negation,starter
+No complaints about the latest release.,positive,negation,starter
+"Oh great, another breaking change in a minor version. Just what I needed.",negative,sarcasm,starter
+"Wow, a 40-minute build for a one-line change. Impressive.",negative,sarcasm,starter
+"Sure, because rewriting everything in a new framework always goes smoothly.",negative,sarcasm,starter
+Love how the docs say 'it just works' and then nothing does.,negative,sarcasm,starter
+Thanks for the five-star documentation: zero examples and three typos.,negative,sarcasm,starter
+"The design is elegant, but the performance is unacceptable under load.",negative,mixed,starter
+"Nice refactor, though the variable names could be clearer.",positive,mixed,starter
+"Works on my machine, fails in CI.",negative,mixed,starter
+Not exactly the cleanest code I've seen.,negative,mixed,starter
+Honestly the old version was more stable than this one.,negative,mixed,starter
+"Great catch on that race condition, thanks for debugging it.",positive,positive with negative words,starter
+"Thanks, that fixed the memory leak.",positive,positive with negative words,starter
+"Awesome, the regression is gone after your patch!",positive,positive with negative words,starter
+"Killer feature, the profiler saved us hours.",positive,positive with negative words,starter
+Nit: please rename this variable.,neutral,review tone,starter
+Could you add a unit test for this branch?,neutral,review tone,starter
+I'm afraid this will not scale beyond a few hundred requests.,negative,review tone,starter
